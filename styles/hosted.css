@@ -1,0 +1,38 @@
+.hosted {
+  width: 490px; }
+  .hosted__title {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    margin: 15px 0 0; }
+  .hosted__were {
+    font-size: 14px;
+    line-height: 16px; }
+  .hosted__button {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #118488;
+    background-color: white;
+    border-radius: 4px;
+    color: #118488;
+    margin: 25px 0;
+    font-size: 20px;
+    -webkit-transition: background-color 0.5s, color 0.5s, -webkit-box-shadow 0.5s;
+    transition: background-color 0.5s, color 0.5s, -webkit-box-shadow 0.5s;
+    transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
+    transition: background-color 0.5s, color 0.5s, box-shadow 0.5s, -webkit-box-shadow 0.5s;
+    outline: none; }
+    .hosted__button:hover {
+      background-color: #118488;
+      color: white; }
+    .hosted__button:focus {
+      -webkit-box-shadow: 0 0 5px 5px grey;
+              box-shadow: 0 0 5px 5px grey;
+      background-color: #118488;
+      color: white; }
+  @media screen and (max-width: 490px) {
+    .hosted {
+      width: 100%; } }
+
+/*# sourceMappingURL=hosted.css.map */
