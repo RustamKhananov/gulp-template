@@ -22,7 +22,8 @@
     transition: background-color 0.5s, color 0.5s, -webkit-box-shadow 0.5s;
     transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
     transition: background-color 0.5s, color 0.5s, box-shadow 0.5s, -webkit-box-shadow 0.5s;
-    outline: none; }
+    outline: none;
+    cursor: pointer; }
     .hosted__button:hover {
       background-color: #118488;
       color: white; }
